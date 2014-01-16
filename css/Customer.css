@@ -1,0 +1,38 @@
+﻿.olControlEditingBufferToolbar  {
+    float:right;
+    right: 0px;
+    height: 30px; 
+    width: 200px;
+}
+.olControlEditingBufferToolbar div { 
+  background-image: url("../../OpenLayers/theme/default/img/editing_tool_bar.png");
+  background-repeat: no-repeat;
+  float:right;
+  width:  24px;
+  height: 24px;
+  margin: 5px;
+}
+.olControlEditingBufferToolbar .olControlNavigationItemActive { 
+  background-position: -103px -23px; 
+}
+.olControlEditingBufferToolbar .olControlNavigationItemInactive { 
+  background-position: -103px -0px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePointItemActive { 
+  background-position: -77px -23px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePointItemInactive { 
+  background-position: -77px -0px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePathItemInactive { 
+  background-position: -51px 0px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePathItemActive { 
+  background-position: -51px -23px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePolygonItemInactive { 
+  background-position: -26px 0px; 
+}
+.olControlEditingBufferToolbar .olControlDrawFeaturePolygonItemActive { 
+  background-position: -26px -23px ;                                                                   
+}
